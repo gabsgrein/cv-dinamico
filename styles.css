@@ -1,0 +1,103 @@
+body{text-align: center;}
+
+h1, h2, h3, h4, h5, h6{font-family: "Anton";}
+
+h1{
+    font-size: 3.5rem; 
+    line-height: 1.5;}
+    
+h2{font-size: 2.5rem;
+    line-height: 1.5;}
+    
+h3{font-size: 1.5rem;}
+    
+p{color: #7a7878;}
+
+
+
+#title{background-image: url(https://media-exp1.licdn.com/dms/image/C4D16AQFKYjYZY3_O-w/profile-displaybackgroundimage-shrink_350_1400/0/1602571070019?e=1637193600&v=beta&t=COy6FAByrNbk_kpyQufxXTJmBQUyFoBaugE7UXrTr3g);
+    background-size: cover;
+    color: #FFF;
+    text-align: center;}
+
+#sobre{margin-top: 5rem;
+    padding:  7%;}
+
+#experiencia{padding:  7% ;
+    position: relative;
+    z-index: 1;}
+
+#footer{padding: 1.5% ;
+    background-color: rgb(15, 14, 14);
+    font-size: 12px;}
+
+details {border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;}
+summary {font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;}
+
+
+    
+.container-fluid{padding: 3%;}
+
+.navbar-brand{font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;}
+
+.nav-item{padding: 0 2rem 2rem 0;}
+
+.nav-link{font-size: 1.2rem;
+    font-family: "Anton-light";}
+
+.descricao{text-align: right;}
+
+.title-image{width: 15%;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #FFF;
+    position: absolute;
+    left: 2rem;;
+    right: 80rem;
+    top: 4.85rem;}
+
+.feature-box{padding: 5%;}
+
+.fas{color: #828383;
+    margin-bottom: 1rem;}
+
+.telefonica:hover{color: rgba(114, 1, 219, 0.829);}
+
+.embrapa:hover{color: rgb(11, 102, 26);}
+
+.cursinho:hover{color: #020202;}
+
+.modal-backdrop {display: none;
+    z-index: 1040 !important;}
+
+.modal-content {margin: 2px auto;
+    z-index: 1100 !important;}
+
+.qotc{padding-left: 100px;
+    padding-bottom: 15px;}
+
+.card{margin-top: 3rem;
+    padding-top: 0.85rem;}
+
+.social-icon{margin: 20px 10px;
+    color: #FFF;
+    font-size: 16px;}
+
+.social-icon:hover{color:#828383;}
+
+
+
+@media(max-width: 1028px) {
+    #title{text-align: center;}
+        .navbar-brand{font-size: 1.85rem;}
+        .title-image{position: static;
+            transform: rotate(0);
+            width: 50%;}
+}
